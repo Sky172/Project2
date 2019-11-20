@@ -1,0 +1,209 @@
+.grid {
+	border: 2px #9494b8 solid;
+	width: 2000px;
+	height: 1300px;
+	display: grid;
+	margin: 0 auto;
+	grid-gap: 20px;
+	grid-template: repeat (3, 4fr)/ repeat ( 3, 12 fr);
+	background-color: #cc99ff;
+}
+
+h1{
+	font-size: 24px;
+	font-family:font-family: 'Righteous', cursive;
+	color:#00AEFF;
+}
+
+h5{
+	color:#C2EEF0 ;
+	font-size:18px;
+}
+
+.a {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: left;
+	grid-area: 2 /4 /span 2/ span 6;
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 6%;
+	padding-top: 8%;
+	font-size: 34px;
+}
+
+.b {
+   background-image:url(https://cdn57.androidauthority.net/wp-content/uploads/2018/02/Blue_LIght-e1518372880382.jpg) ;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /4 /span 1/ span 6;
+	font-family: 'Yeon Sung', cursive;
+	font-size: 96px;
+}	
+
+
+.c {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	grid-area: 1 /1 /span 3/ span 3;
+	font-family: font-family: 'Quicksand', sans-serif;
+	padding-left: 20%;
+	padding-right: 24%;
+	font-size: 36px;
+}
+ .d  {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 4 /4 /span 1/ span 6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.e {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 2 /4 /span 1/ span 6;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.f {
+   background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: left;
+	grid-area: 1 /4 /span 1/ span 6;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}	
+
+.g {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /1 /span 4/ span 3;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 22px;
+}
+ .h {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 4 /1 /span 1/ span 9;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.i {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 2 /4 /span 2/ span 6;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.j {
+   background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /4 /span 1/ span 6;
+	font-family: 'Quicksand', sans-serif;
+}	
+
+.k {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /1 /span 3/ span 3;
+	font-family: 'Quicksand', sans-serif;
+}
+ .l  {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 4 /1 /span 1/ span 9;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.m {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 2 /4 /span 2/ span 6;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.n {
+   background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /4 /span 1/ span 6;
+	 font-family: 'Quicksand', sans-serif;
+}	
+
+.o {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /1 /span 3/ span 3;
+	font-family: 'Quicksand', sans-serif;
+}
+ .p  {
+	background-color: #400080;
+	color: black;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 4 /1 /span 1/ span 9;
+	font-family: 'Quicksand', sans-serif;
+}
+.opacity-please{
+	opacity: 0.35;
+	text-align:left;
+}
+
+.q {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 2 /4 /span 2/ span 6;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.r {
+   background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /4 /span 1/ span 6;
+	font-family: 'Quicksand', sans-serif;
+}	
+
+.s {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 1 /1 /span 3/ span 3;
+	font-family: 'Quicksand', sans-serif;
+}
+ .t  {
+	background-color: #400080;
+	color: white;
+	border: 5px #9494b8 inset;
+	text-align: center;
+	grid-area: 4 /1 /span 1/ span 9;
+	font-family: 'Quicksand', sans-serif;
+}
