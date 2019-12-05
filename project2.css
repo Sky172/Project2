@@ -1,12 +1,16 @@
 .grid {
 	border: 2px #9494b8 solid;
-	width: 2000px;
-	height: 1300px;
+	width: 1900px;
+	height: 1150px;
 	display: grid;
 	margin: 0 auto;
 	grid-gap: 20px;
-	grid-template: repeat (3, 4fr)/ repeat ( 3, 12 fr);
+	grid-template: repeat (3, 4fr)/ repeat ( 3, 12fr);
 	background-color: #cc99ff;
+}
+
+.grid-4{
+  background-image: url(https://cdn.hswstatic.com/gif/fire-resistance-quiz1.jpg) ;
 }
 
 h1{
@@ -88,7 +92,7 @@ h5{
 	text-align: center;
 	grid-area: 1 /1 /span 4/ span 3;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 22px;
+	font-size: 54px;
 }
  .h {
 	background-color: #400080;
@@ -144,12 +148,12 @@ h5{
 }
 
 .n {
-   background-color: #400080;
+background-image: url(https://biztechmagazine.com/sites/biztechmagazine.com/files/styles/cdw_hero/public/articles/201908/GettyImages-1132631191%20copy.jpg?itok=nUuJPwdg) ;
 	color: white;
 	border: 5px #9494b8 inset;
 	text-align: center;
 	grid-area: 1 /4 /span 1/ span 6;
-	 font-family: 'Quicksand', sans-serif;
+	font-family: 'Sulphur Point', sans-serif;
 }	
 
 .o {
@@ -183,27 +187,24 @@ h5{
 }
 
 .r {
-   background-color: #400080;
-	color: white;
+	background-image:url(https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg) ;
+	color: #C2EEF0;
 	border: 5px #9494b8 inset;
 	text-align: center;
-	grid-area: 1 /4 /span 1/ span 6;
+	grid-area: 1 /2 /span 2 / span 7;
 	font-family: 'Quicksand', sans-serif;
+	font-size:14px;
 }	
 
-.s {
-	background-color: #400080;
-	color: white;
-	border: 5px #9494b8 inset;
-	text-align: center;
-	grid-area: 1 /1 /span 3/ span 3;
-	font-family: 'Quicksand', sans-serif;
 }
  .t  {
-	background-color: #400080;
+	background-color: 
 	color: white;
 	border: 5px #9494b8 inset;
 	text-align: center;
-	grid-area: 4 /1 /span 1/ span 9;
+	grid-area: 2 /1 /span 3/ span 8;
 	font-family: 'Quicksand', sans-serif;
+}
+.Earth{
+	text-align: left;
 }
